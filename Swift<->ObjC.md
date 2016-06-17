@@ -579,7 +579,7 @@ public protocol _ObjectiveCBridgeable {
 
 ```objectivec
 NSArray<NSString *> *names = @[ @"John", @"Jane" ];
-MSArray<id <NSCopying>> *array = names;
+NSArray<id <NSCopying>> *array = names;
 ```
 
 ^ In ObjC generics are compile-time only and are type erased.
